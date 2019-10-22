@@ -1,0 +1,45 @@
+// ConsoleApplication4.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include "iostream"
+using namespace std;
+
+
+
+class shape {
+public:
+	int a = 5, b = 8, r;
+	virtual void area();
+};
+
+
+class square : public shape {
+
+public:
+	int n, m;
+	void area()
+	{
+		cout << a*b << endl;
+	};
+	
+
+
+};
+
+
+int main()
+{
+	shape a, b, s, n , m;
+	
+	square area;
+	square ar;
+	
+
+	square ar();
+
+	ar.area();
+
+    return 0;
+}
+
